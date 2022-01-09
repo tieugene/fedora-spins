@@ -9,14 +9,9 @@
 
 %include contrib/fedora-live-base.ks
 %include /usr/share/spin-kickstarts/fedora-live-minimization.ks
-%include /usr/share/spin-kickstarts/fedora-lxqt-common.ks
+%include contrib/contrib-lxqt.ks
 
 %packages
-# patch>
--enki
-mc
-rpmreaper
-# <patch
 dracut-config-generic
 %end
 
@@ -30,7 +25,7 @@ cat > /etc/lightdm/lightdm.conf.d/50-autologin.conf<<FOE
 type=local
 autologin-user=liveuser
 autologin-user-timeout=0
-autologin-session=icewm-session
+autologin-session=lxqt
 FOE
 
 # show liveinst.desktop in menu

@@ -1,0 +1,17 @@
+--- /usr/share/spin-kickstarts/fedora-live-base.ks	2021-11-28 01:57:17.000000000 +0300
++++ fedora-live-base.ks	2022-01-10 01:12:11.782828140 +0300
+@@ -16,12 +16,12 @@
+ zerombr
+ clearpart --all
+ part / --size 5120 --fstype ext4
+-services --enabled=NetworkManager,ModemManager --disabled=sshd
++services --enabled=NetworkManager --disabled=sshd
+ network --bootproto=dhcp --device=link --activate
+ rootpw --lock --iscrypted locked
+ shutdown
+ 
+-%include fedora-repo.ks
++%include /usr/share/spin-kickstarts/fedora-repo-not-rawhide.ks
+ 
+ %packages
+ # Explicitly specified here:

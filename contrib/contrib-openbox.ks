@@ -1,21 +1,22 @@
-# fedora-icewm-common.ks
+# contrib-openbox.ks
 #
 
 %packages
 
-icewm
-# icewm-minimal-session
--icewm-themes
+openbox
+tint2
+jgmenu
 
 # Tray
 # xxkb/qxkb
 
 # Utility
+obconf
 xfe
 # text editor: xfw
 # image viewer: xfi
 xpdf
 
-%include fedora-common.ks
+%include contrib-common.ks
 
 %end

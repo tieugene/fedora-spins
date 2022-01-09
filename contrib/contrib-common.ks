@@ -1,4 +1,4 @@
-# fedora-common.ks
+# contrib-common.ks
 #
 
 -flatpak

@@ -9,7 +9,7 @@
 
 %include contrib/fedora-live-base.ks
 %include /usr/share/spin-kickstarts/fedora-live-minimization.ks
-%include contrib/fedora-icewm-common.ks
+%include contrib/contrib-icewm.ks
 
 %packages
 dracut-config-generic

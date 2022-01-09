@@ -21,7 +21,6 @@ network --bootproto=dhcp --device=link --activate
 rootpw --lock --iscrypted locked
 shutdown
 
-#include /usr/share/spin-kickstarts/fedora-repo.ks
 %include /usr/share/spin-kickstarts/fedora-repo-not-rawhide.ks
 
 %packages
