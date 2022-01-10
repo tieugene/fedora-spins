@@ -28,6 +28,17 @@ autologin-user-timeout=0
 autologin-session=openbox
 FOE
 
+# tint2 +=jgmenu
+sed -i 's/LTSC/PLTSC/' /etc/xdg/tint2/tint2rc
+cat >> /etc/xdg/tint2/tint2rc<<FOE
+button = new
+button_icon = /usr/share/pixmaps/fedora-logo-sprite.png
+button_lclick_command = jgmenu_run
+FOE
+
+# openbox += tint2
+echo "tint2 &" >> /etc/xdg/openbox/autostart
+
 # show liveinst.desktop in menu
 sed -i 's/NoDisplay=true/NoDisplay=false/' /usr/share/applications/liveinst.desktop
 

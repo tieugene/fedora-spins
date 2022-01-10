@@ -3,6 +3,11 @@
 
 -flatpak
 -flatpak-selinux
+-glibc-devel
+-geolite2-city
+-onboard
+#-tracker
+
 xorg-x11-server-Xorg
 slick-greeter
 
@@ -13,14 +18,14 @@ gnome-keyring
 gstreamer1-plugin-mpg123
 
 # tray
-pavucontrol-qt-l10n
+pavucontrol
 network-manager-applet
 
 # utility
 file-roller
-falkon
-# otterbrowser
+firefox
 terminator
+mupdf
 mc
 rpmreaper
 
