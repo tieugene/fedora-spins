@@ -6,3 +6,4 @@
 - [x] OpenBox: autoload tint2 + jgmenu
 - [x] LXQt: FIXME: not autologin
 - [x] LXQt: s/sddm/slick-greeter/
+- [x] +rpmfusion, +mpv, +akmod-wl

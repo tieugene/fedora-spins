@@ -1,21 +1,18 @@
 # contrib-common.ks
 #
 
-%include contrib-all-add.ks
-%include contrib-all-del.ks
+%include contrib-all.ks
+
+%packages
 
 xorg-x11-server-Xorg
-
 # for nm applet
 gnome-keyring
-
 # MP3
 gstreamer1-plugin-mpg123
-
 # tray
 pavucontrol
 network-manager-applet
-
 # utility
 xfe
 # text editor: xfw
@@ -48,3 +45,5 @@ mupdf
 # Fix https://bugzilla.redhat.com/show_bug.cgi?id=1429132
 # Why is this not pulled in by anaconda???
 storaged
+
+%end

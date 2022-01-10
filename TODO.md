@@ -1,15 +1,13 @@
 # ToDo
 
 ## Packages
-- [ ] +[rpmfusion-[non]free](https://github.com/rpmfusion-infra/rpmfusion-kickstarts)
-  - [ ] +mpv
-  - [ ] +[a]kmod-wl (kmod req. akmod; rpmfussion-nonfree)
 - [ ] +remmina-plugins-{vnc,rdp}
 - [ ] +misc (dump, pbzip2, p7zip, zstd, unrar, tar, rdesktop, freerdp, lm_sensors, logwatch, logrotate, msmtp, tuned, authselect)
 - [ ] kernel args: -rhgb -quiet eth0
 
 ### IceWM & OpenBox
 - [ ] h/w drivers (wifi etc)
+- [ ] Automount
 
 ### IceWM
 - [ ] tune panel
@@ -21,10 +19,9 @@
 ### LXQT
 - [ ] +libreoffice-*, firefox, speedcrunch, qpdfview-qt5, nomacs, ...
 
-### AIO
-- [ ] IceWM+OpenBox+LXQt
-
 ## Misc
+- [ ] macbook loadable (try macbook itself)
+- [ ] 3in1 (IceWM+OpenBox+LXQt)
 - [ ] Makefile
 - [ ] config ('--resultdir')
 - [ ] Dox: *.ks dependencies

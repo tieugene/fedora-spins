@@ -2,11 +2,9 @@
 #
 
 %include /usr/share/spin-kickstarts/fedora-lxqt-common.ks
+%include contrib-all.ks
 
 %packages
-
-%include contrib-all-add.ks
-%include contrib-all-del.ks
 
 -sddm
 -sddm-themes

@@ -1,12 +1,12 @@
 # contrib-icewm.ks
 #
 
+%include contrib-common.ks
+
 %packages
 
 icewm
 # icewm-minimal-session
 -icewm-themes
-
-%include contrib-common.ks
 
 %end
