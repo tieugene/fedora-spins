@@ -22,6 +22,9 @@ pavucontrol
 network-manager-applet
 
 # utility
+xfe
+# text editor: xfw
+# image viewer: xfi
 file-roller
 firefox
 terminator

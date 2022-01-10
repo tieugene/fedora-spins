@@ -4,14 +4,9 @@
 %packages
 
 openbox
+obconf
 tint2
 jgmenu
-
-# Utility
-obconf
-xfe
-# text editor: xfw
-# image viewer: xfi
 
 %include contrib-common.ks
 
