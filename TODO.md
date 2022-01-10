@@ -2,13 +2,14 @@
 
 ## Packages
 - [ ] +[rpmfusion-[non]free](https://github.com/rpmfusion-infra/rpmfusion-kickstarts)
-- [ ] +mpv
-- [ ] +macbook wifi kmod
-- [ ] +remmina-plugins-vnc
-- [ ] +remmina-plugins-rdp
-- [ ] +misc (dump/restore, zstd, p7zip, unrar, rdesktop, freerdp, lm_sensors, logwatch, logrotate)
-- [ ] +tuned, +authselect
+  - [ ] +mpv
+  - [ ] +[a]kmod-wl (kmod req. akmod; rpmfussion-nonfree)
+- [ ] +remmina-plugins-{vnc,rdp}
+- [ ] +misc (dump, pbzip2, p7zip, zstd, unrar, tar, rdesktop, freerdp, lm_sensors, logwatch, logrotate, msmtp, tuned, authselect)
 - [ ] kernel args: -rhgb -quiet eth0
+
+### IceWM & OpenBox
+- [ ] h/w drivers (wifi etc)
 
 ### IceWM
 - [ ] tune panel
@@ -18,7 +19,6 @@
 - [ ] tint2: tune panel
 
 ### LXQT
-- [ ] -*transmission*
 - [ ] +libreoffice-*, firefox, speedcrunch, qpdfview-qt5, nomacs, ...
 
 ### AIO
@@ -26,8 +26,11 @@
 
 ## Misc
 - [ ] Makefile
-- [ ] config (e.g. 'resultdir')
+- [ ] config ('--resultdir')
 - [ ] Dox: *.ks dependencies
+- [ ] Terminal: lite, tabbed, not copy spaces to EOL
+- [ ] img size (5120 => 5370806272 = 5122MB)
 
 ## RU
 - [ ] +ru locale (glibc-langpack-ru, locale, lang, kbd, vconsole, tz)
+- [ ] -glibc-all-langpacks +glibc-langpack-ru

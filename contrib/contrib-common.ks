@@ -1,15 +1,10 @@
 # contrib-common.ks
 #
 
--flatpak
--flatpak-selinux
--glibc-devel
--geolite2-city
--onboard
-#-tracker
+%include contrib-all-add.ks
+%include contrib-all-del.ks
 
 xorg-x11-server-Xorg
-slick-greeter
 
 # for nm applet
 gnome-keyring
@@ -29,8 +24,6 @@ file-roller
 firefox
 terminator
 mupdf
-mc
-rpmreaper
 
 # remove unneeded stuff to get a lightweight system
 # fonts (we make no bones about admitting we're english-only)

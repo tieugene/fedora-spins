@@ -5,13 +5,15 @@
 
 %packages
 
--enki
+%include contrib-all-add.ks
+%include contrib-all-del.ks
+
 -sddm
 -sddm-themes
--flatpak
--flatpak-selinux
-slick-greeter
-mc
-rpmreaper
+-enki
+-transmission-*
+-google-non-cjk-fonts-common
+-virtualbox-guest-additions
+-words
 
 %end
